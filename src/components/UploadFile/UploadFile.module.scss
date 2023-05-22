@@ -1,0 +1,74 @@
+.form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px dashed #fff;
+    height: 220px;
+    width: 100%;
+    max-width: 500px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.form__active {
+    border-color: red;
+    &:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(255, 255, 255, 0.3);
+    }
+}
+.uploadTitle {
+    font-size: 16px;
+    text-align: center;
+}
+.uploadedContainer {
+    width: 100%;
+    max-width: 500px;
+    li {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 20px;
+        border-radius: 5px;
+        background-color: #e9f0ff;
+        width: 100%;
+        box-sizing: border-box;
+        margin: 0;
+        & + li {
+            margin-top: 10px;
+        }
+    }
+    svg {
+        color: #000;
+    }
+}
+.iconCloud {
+    font-size: 80px;
+}
+.delete {
+    color: #000;
+    cursor: pointer;
+}
+.uploadedContent {
+    color: #000;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    span {
+        padding: 0 5px;
+        color: #827373;
+    }
+}
+.errorMsg {
+    font-size: 15px;
+    color: #ff9a9a;
+    padding-bottom: 10px;
+}

@@ -1,0 +1,13 @@
+.acordion {
+    &__title {
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 21px;
+        line-height: 1.3;
+    }
+    &__descriptionContent {
+        @media (min-width: 768px) {
+            padding: 15px 46px !important;
+        }
+    }
+}

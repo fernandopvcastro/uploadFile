@@ -1,0 +1,41 @@
+.docs {
+    &__list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 10px;
+    }
+    &__item {
+        position: relative;
+        display: flex;
+        align-items: flex-end;
+        height: 26px;
+        min-width: 28px;
+        &:before {
+            content: "";
+            display: block;
+            width: 17px;
+            height: 27px;
+            border: 1px solid #fff;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        + li {
+            margin-left: 2px;
+        }
+        &:last-child {
+            margin-left: 4px;
+        }
+        span {
+            position: relative;
+            display: inline-block;
+            background-color: #fff;
+            color: #000;
+            font-size: 8px;
+            text-transform: uppercase;
+            padding: 3px;
+            margin-left: -3px;
+        }
+    }
+}

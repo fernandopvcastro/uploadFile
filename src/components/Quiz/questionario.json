@@ -1,0 +1,146 @@
+[
+    {
+        "question": "What skills does a front-end developer need?",
+        "answer": "A front-end needs to have a series of skills and knowledge to be able to develop very interactive and responsive interfaces. Some of these skills are:\nHTML and CSS;\nJavascript and some frameworks and libraries like Reacy, Angular, Vue;\nUnderstand about responsive design for layouts to work, both on desktop and mobile;\nUnderstand about UI/UX;\nPerformance and optimization to make applications lighter and more functional as possible;\nWork with some version control like GIT;\nKnow how to debug code to investigate problems and find solutions; and others."
+    },
+    {
+        "question": "Differentiate between div and span?",
+        "answer": "'div' is a block element and, by default, fill all the line, while 'span' is an inline element. Content created as span, by default, stands side by side."
+    },
+    {
+        "question": "What's React JS?",
+        "answer": "Is an open source JavaScript library developed by Facebook.\nIt is used to create interactive and reactive user interfaces. With it, developers can build components, which are reusable code snippets to form interactive and complex interfaces."
+    },
+    {
+        "question": "Describe the advantages of REST web services?",
+        "answer": "They can be used in any programming language;\nIt is easy to understand, implement and maintain, due to its simple architecture;\nIt's designed to be lightweight and efficient;\nThe REST approach allows services to be easily scalable as each resource is identified by a unique URI. This allows load distribution and load balancing between servers;\nThey are widely adopted and supported by most platforms and frameworks."
+    },
+    {
+        "question": "How browsers render the UI?",
+        "answer": "The browser receives the HTML from the server and analyzes the HTML code to understand the structure and elements present on the page;\nBased on the parsed HTML, the browser builds the Document Object Tree (DOM), which is an in-memory representation of the HTML elements on the page;\nWith the element tree built, the browser performs the layout rendering process;\nAfter calculating the layout, the browser walks through the tree of elements and paints each element in its correct position on the screen;\nOnce the elements are painted, the browser performs the compositing process, which involves combining individual layers of elements to form the final UI image;\nAs page state changes, either through user interaction or dynamic updates with JavaScript, the browser performs additional rendering steps to update the UI as needed."
+    },
+    {
+        "question": "What's a Grid system in CSS?",
+        "answer": "It is a technique that allows you to create flexible and responsive layouts for user interface design. It divides the page space into a grid of rows and columns, allowing elements to be precisely positioned and aligned.\nWith the grid system, you can define the number of columns you want to use and distribute the content across those columns. This gives you greater control over the structure and placement of elements on a page."
+    },
+    {
+        "question": "Describe the distinction between Class and Prototypal inheritance in Javascript?",
+        "answer": "'Class' inheritance was introduced starting with ES6 (ECMAScript 2015). It follows a more traditional object-oriented inheritance approach, similar to other languages such as Java and C++.\nIn this model, you can create classes with properties and methods, and then use the 'extends' keyword to create an inheritance relationship between classes. The child class inherits the properties and methods of the parent class, and can also add or override these properties and methods as needed.\n\n'Prototype' inheritance is an older approach in JavaScript, in which objects inherit properties and behaviors directly from other objects, without the need for classes.\nIn this model, every object in JavaScript has an associated prototype, which is an object from which it inherits properties. To create an inheritance relationship between objects, you can use the Object.create() function to create a new object with a specific prototype."
+    },
+    {
+        "question": "Explain user-centered design?",
+        "answer": "It is an approach to the design of products, services and systems that places the needs, desires and abilities of users at the center of the design process.\nIn this approach, the main objective is to create solutions that are effective, efficient and pleasant to use for end users, taking into account their characteristics, preferences and contexts of use. User-centered design emphasizes the importance of understanding users as real people, actively involving them throughout the design process, from initial research to ongoing evaluation of the final product."
+    },
+    {
+        "question": "What's ClickJacking?",
+        "answer": "It is a type of cyber attack where an attacker tricks a user into inadvertently or unknowingly clicking on an element on a web page. The attack is carried out by superimposing invisible or deceptive elements over legitimate content, tricking the user into thinking they are interacting with real content, when in fact they are performing unwanted actions.\nThe aim of the attack is to exploit user trust in legitimate websites to perform malicious actions such as clicking hidden buttons, downloading unwanted files, granting unauthorized permissions or sharing confidential information."
+    },
+    {
+        "question": "Tell me when and why should I make use of Webpack?",
+        "answer": "Webpack is a powerful tool for packaging and building front-end projects. It provides advanced features such as module management, packaging, minification, transpilation, resource loading and creating development environments. It is widely used to optimize the performance, organization and scalability of modern web projects."
+    },
+    {
+        "question": "Mention three ways to decrease page load time?",
+        "answer": "Optimize the size of images;\nMinify CSS, JAVASCRIPT and HTML files;\nAsynchronous loading, making the call to the javascript files at the end of the HTML document, before the closing of the BODY tag and with the 'async' attribute, and the use of the media='print' attribute for calls to CSS files."
+    },
+    {
+        "question": "How does the server hanger the page in which content is present in several languages?",
+        "answer": "The server renders the page with content in multiple languages by identifying the user's preferred language, selecting the content in the appropriate language, and generating the page with the translated content elements inserted in the appropriate places."
+    },
+    {
+        "question": "Why did we utilize the data- the attribute in HTML and why it is now advised not to use?",
+        "answer": "The 'data' attribute is a convenient way to add custom information to HTML elements without interfering with standard HTML attributes or accessing the correct semantics of the document. It provides a consistent and secure way to extend HTML markup to meet the specific needs of an application or component.\nIt is recommended not to use it when you want to store content that should be visible and accessible in the data attributes because assistive technologies may not be able to access them. Also, search engines may not index data attribute values."
+    },
+    {
+        "question": "Mention the benefits of CoffeeScript over JavaScript?",
+        "answer": "CoffeeScript is a programming language that compiles to JavaScript. Some benefits to using it are:\n- More concise syntax, as it eliminates the need for some JavaScript characters and keywords, such as braces, semicolons, reducing code verbosity and making it more readable;\n- Writing cleaner and more readable code being closer to a natural language;\n- Addresses some common JavaScript issues, such as differences in handling the scope of the 'this' variable and the need to close blocks of code with curly braces. This can help prevent subtle bugs and improve code clarity."
+    },
+    {
+        "question": "What's stringify?",
+        "answer": "It is a term used in programming to refer to the process of converting an object to a string. It is often used in data serialization contexts, where an object needs to be converted to a text representation before it can be stored, transmitted, or otherwise manipulated."
+    },
+    {
+        "question": "State all the elements of the CSS Box Model.",
+        "answer": "width, height, padding, margin and border."
+    },
+    {
+        "question": "What's Progressive Rendering?",
+        "answer": "This is when the browser starts displaying the page's content as soon as it is received, even though the rest of the content is still processing and loading. In other words, progressive rendering allows the user to see parts of the page gradually display, rather than waiting for the full rendering before seeing any content.\nThis technique is especially useful for pages or web applications with large amounts of content or longer load times. By adopting progressive rendering, users have a faster and more responsive experience as they can interact with the content available immediately, even while the rest of the page is rendering or loading."
+    },
+    {
+        "question": "In an image tag, what is the benefit of the srcset attribute?",
+        "answer": "Using the 'srcset' attribute helps optimize image loading and improve the user experience by providing images suitable for different devices and screen sizes. This results in faster load times, lower data consumption and high quality images for users."
+    },
+    {
+        "question": "Mention the difference between MySQL and MongoDB?",
+        "answer": "The difference is in their approach to data storage and retrieval.\nMySQL is a table-based relational database; MongoDB is a document-oriented NoSQL database where data is stored in JSON documents.\nIn MySQL, it is necessary to define a rigid table structure in advance, specifying the columns and their data types; In MongoDB, there is no rigid schema.\n MySQL uses SQL as its default query language; MongoDB uses a document-based query language."
+    },
+    {
+        "question": "Define the Anonymous function in JS?",
+        "answer": "It is a function that does not have a name associated with it. Rather than being declared using the 'function' keyword followed by a name, an anonymous function is defined directly as an expression. It is usually assigned to a variable or passed as an argument to another function.\nWith the introduction of arrow functions (=>) in ES6, traditional anonymous functions have been replaced in many cases, as arrow functions have a more concise syntax and lexical scope behavior than 'this'."
+    },
+    {
+        "question": "What do you know about the CSS image sprites and why it is utilized?",
+        "answer": "Image sprites serve to optimize image loading time, since there are several images in a single image. This also reduces the number of HTTP requests. By reducing the number of requests, there is a significant improvement in application performance."
+    },
+    {
+        "question": "Suggest some ways on how to fix the browser-specific styling issue?",
+        "answer": "The use of prefixes in certain CSS properties for different browsers, are the so-called CSS HACKS, like '-webkit-', '-moz-', '-ms-' and '-o-'; a CSS normalization can also be applied.\nAt the beginning of the style document, some properties are reset so that they do not differ between different browsers. This can be done via a CSS 'reset' or by calling external libraries for this purpose.\nWith javascript it is also possible to detect the browser through the properties 'navigator.userAgent' or 'navigator.vendor' to apply CSS for different types of browsers."
+    },
+    {
+        "question": "Mention the pitfalls for using a CSS Preprocessor like Sass?",
+        "answer": "It requires some time to learn the syntax and specific features of the preprocessor to take advantage of its features efficiently;\nWhile Sass offers powerful features like variables, mixins, and nesting, it's important to avoid over-complexity in your code. Excessive nesting and inappropriate use of advanced features can make code difficult to read, maintain, and debug;\nRequires the use of compilation tools such as the Sass compiler to convert Sass code to valid CSS. This adds an additional layer of dependency to your development setups;\nIt can also add additional overhead to the development flow. Every time a change is made to the Sass code, it needs to be compiled into CSS before the changes are reflected in the browser. On larger projects, this can lead to longer build times and delay the development process."
+    },
+    {
+        "question": "Suggest how can we optimize our front-end page.",
+        "answer": "- Minify CSS, JavaScript and HTML files;\n- Reduce the size of images using compression techniques, such as lossless compression;\n- Configure caching of static files, such as CSS, JavaScript and images, so that they are cached in the user's browser, thus reducing load time;\n- Removal of unused codes;\n- Asynchronous loading of CSS and JAVASCRIPT files;\n- Upload only the code needed for certain pages or resources, avoiding unnecessary code loading."
+    },
+    {
+        "question": "What's the difference between attribute and property?",
+        "answer": "Attributes are defined in HTML and specify characteristics of HTML elements, providing additional information about the elements and are always defined in text format within HTML tags;\nThe properties, on the other hand, represent the execution time of an attribute and are accessed and manipulated through the DOM object, in Javascript. They are generally used to access or modify the state or behavior of HTML elements."
+    },
+    {
+        "question": "State the difference between == and ===?",
+        "answer": "'==' compares two values for equality after performing type coercion, if necessary. It allows for implicit type conversion before comparison. 1 == '1' would return 'true' because the string '1' is implicitly converted to a number before the comparison;\n'===', makes the strict comparison between values, without performing any kind of type coercion before the comparison. Requires that both the value and the type are the same for the comparison to evaluate to true. 1 === '1' would return 'false', because the operands have different types (number and string)."
+    },
+    {
+        "question": "Why do we utilize the 'use strict'; statement?",
+        "answer": "It's a statement used at the beginning of a JavaScript file or in a function, it defines a stricter set of rules for code execution.\nStrict mode disables certain ambiguous or problematic features, such as the implicit use of global variables (when they are not declared with 'var', 'let' or 'const'), the use of 'this' in the global context, and the redefinition of reserved keywords.\nSince strict mode requires cleaner and safer code, it can help improve JavaScript performance since the interpreter can optimize the code based on the restrictions imposed by strict mode.\nIt is widely recommended for best JavaScript programming practices. It helps to write code that is more robust, readable and compatible with newer language versions."
+    },
+    {
+        "question": "Name the major HTTP requests",
+        "answer": "GET, POST, PUT, DELETE."
+    },
+    {
+        "question": "What's Py-Script?",
+        "answer": "Is a tool that is under development so that you can use Python in the frontend of a website."
+    },
+    {
+        "question": "Why should we hire you as frontend developer?",
+        "answer": "Because I do what I do and I'm sure I have a lot to contribute to the company and the team."
+    },
+    {
+        "question": "What's the most challenging work you have ever done as a front-end developer?",
+        "answer": "Work with React. Made me want to learn even more javascript."
+    },
+    {
+        "question": "What's front end and back end web development?",
+        "answer": "Front-End takes care of creating the user interface and user experience on a website or application. It takes care of every visual and interactive part for the user of a website or app. However, more and more, the work of a front-end is going far beyond taking care of the visual part, because nowadays it is already possible to create an entire backend in Javascript.\nBack-End deals with all the 'hidden' part for the end user, such as all the logic and storage in the database of a website or app, processing user requests, authentication, business logic and others. Technologies that are on the server side."
+    },
+    {
+        "question": "Which language is best for front end development?",
+        "answer": "Javascript."
+    },
+    {
+        "question": "What's SSR(Server Side Rendering)?",
+        "answer": "Also known as server-side rendering, it is a technique used to process and generate the HTML content of a page on the server before sending it to the user's browser. The server receives a request from the browser and then executes the necessary logic to generate the HTML content for the page. This can include fetching data from a database, executing business logic, and rendering interface components. The server returns the complete HTML content to the browser, which then displays the page to the user."
+    },
+    {
+        "question": "What's bootstrap?",
+        "answer": "It is an open source framework widely used in websites and apps. It has a very large set of ready-to-use components and styles, optimizing development time for responsive and modern interfaces."
+    },
+    {
+        "question": "What's flexbox?",
+        "answer": "It is a CSS layout template that allows you to create flexible and responsive layouts more efficiently. It offers an easier way to align, distribute and resize elements in a container, regardless of screen size or content."
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "title": "COVID-19",
+        "imageUrl": "./assets/images/covid.jpg"
+    },
+    {
+        "title": "Seinfield",
+        "imageUrl": "./assets/images/seinfield.jpg"
+    },
+    {
+        "title": "The Simpsons",
+        "imageUrl": "./assets/images/the-simpsons.jpg"
+    },
+    {
+        "title": "Video Games",
+        "imageUrl": "./assets/images/games.jpg"
+    },
+    {
+        "title": "Movies",
+        "imageUrl": "./assets/images/movies.jpg"
+    },
+    {
+        "title": "makeTimeDataFrame",
+        "imageUrl": "./assets/images/makeTimeDataFrame.jpg"
+    }
+]
