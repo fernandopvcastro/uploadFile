@@ -64,7 +64,7 @@ const UploadFile = () => {
             setFiles(updatedFiles);
             setErrorMessage(error);
             setLoading(false);
-        }, 5000);
+        }, 3000);
     };
 
     const removeItem = (id) => {
@@ -72,15 +72,28 @@ const UploadFile = () => {
         setFiles(updatedFiles);
     };
 
-    const divClassName = `${styles.form} ${
+    const uploadForm = `${styles.form} ${
         isDragging ? styles.form__active : ""
     }`;
+
+    const handleFormSubmit = (event) => {
+        event.preventDefault();
+        setLoading(true);
+        setTimeout(() => {
+            files.map((file) => {
+                console.log("Arquivo: ", file.name);
+                return true;
+            });
+            setLoading(false);
+        }, 2000);
+    };
+
     return (
         <>
             {loading && <Loading />}
             <form
                 action=""
-                className={divClassName}
+                className={uploadForm}
                 onClick={() => document.querySelector(".input-field").click()}
                 onDragOver={handleDragOver}
                 onDragLeave={handleDragLeave}
@@ -125,6 +138,14 @@ const UploadFile = () => {
                         </li>
                     ))}
                 </ul>
+            )}
+
+            {files.length > 0 && (
+                <div className={styles.buttonContainer}>
+                    <button type="submit" onClick={handleFormSubmit}>
+                        Send
+                    </button>
+                </div>
             )}
         </>
     );

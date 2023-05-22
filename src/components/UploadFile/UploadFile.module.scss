@@ -72,3 +72,19 @@
     color: #ff9a9a;
     padding-bottom: 10px;
 }
+.buttonContainer {
+    margin-top: 20px;
+    button {
+        padding: 15px 30px 12px;
+        font-size: 16px;
+        text-transform: uppercase;
+        cursor: pointer;
+        background-color: #ffeb3b;
+        border: 0;
+        transition: 0.3s;
+        width: 170px;
+        &:hover {
+            background-color: #c6b62a;
+        }
+    }
+}

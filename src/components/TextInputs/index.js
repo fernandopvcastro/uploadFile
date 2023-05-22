@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Box from "@mui/material/Box";
 import styles from "./TextInputs.module.scss";
+import Loading from "../Loading";
 
 const Inputs = [
     {
@@ -28,6 +29,7 @@ const Inputs = [
 const TextInputs = () => {
     const [url, setUrl] = useState("");
     const [validationMessage, setValidationMessage] = useState("");
+    const [loading, setLoading] = useState(false);
 
     const handleInputChange = (event) => {
         setUrl(event.target.value);
@@ -51,6 +53,11 @@ const TextInputs = () => {
         event.target.setCustomValidity(" ");
         if (isValidUrl(url)) {
             setValidationMessage(false);
+            setLoading(true);
+            setTimeout(() => {
+                console.log("Arquivo: ", url);
+                setLoading(false);
+            }, 2000);
         } else {
             setValidationMessage("URL inválida");
         }
@@ -68,6 +75,7 @@ const TextInputs = () => {
     return (
         <>
             <div className={styles.inputsContainer}>
+                {loading && <Loading />}
                 <form onSubmit={handleSubmit}>
                     <div className={styles.input}>
                         <span>Data Type</span>
