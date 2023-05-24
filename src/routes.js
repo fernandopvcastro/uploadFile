@@ -5,8 +5,8 @@ import Questionario from "./pages/Questionario";
 import Aplicacao from "./pages/Aplicacao";
 
 const Routes = () => (
-    // <BrowserRouter> // Localhost
-    <BrowserRouter basename="/projects/ouronova">
+    // <BrowserRouter basename="/projects/ouronova">
+    <BrowserRouter>
         <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/quiz" component={Questionario} />

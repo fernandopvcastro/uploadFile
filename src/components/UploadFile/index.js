@@ -55,7 +55,7 @@ const UploadFile = () => {
                         file.id = Math.random().toString(36).substring(7);
                         updatedFiles.push(file);
                     } else {
-                        error = `the file ${file.name} exceeds the allowed size.`;
+                        error = `the file ${file.name} exceeds the allowed size. At most 20Mb`;
                     }
                 } else {
                     error = `the file ${file.name} has an invalid extension.`;
